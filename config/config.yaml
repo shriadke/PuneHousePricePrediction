@@ -25,3 +25,8 @@ model_trainer:
   root_dir: artifacts/model_trainer
   data_path: artifacts/data_transformation
   model_ckpt: lrmodel.pkl
+
+model_evaluation:
+  root_dir: artifacts/model_evaluation
+  data_path: artifacts/data_transformation/
+  model_path: artifacts/model_trainer/lrmodel.pkl

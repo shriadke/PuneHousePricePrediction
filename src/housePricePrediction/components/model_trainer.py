@@ -39,7 +39,7 @@ class ModelTrainer:
         y_train = train_df[label]
         y_test = test_df[label]
 
-        logger.info(f"Column orrder : \n {features}")
+        logger.info(f"Column order : \n {features}")
         logger.info(f"Label column is : \n {label}")
         logger.info(f"Data Shape: \n")
         logger.info(f"Train features:  {X_train.shape},  Label: {y_train.shape}")

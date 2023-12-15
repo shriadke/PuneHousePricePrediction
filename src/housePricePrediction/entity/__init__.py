@@ -34,3 +34,9 @@ class ModelTrainerConfig:
     lasso_eps: float
     sgd_max_iter: int
     sgd_tol: float
+
+@dataclass(frozen=True)
+class ModelEvaluationConfig:
+    root_dir: Path
+    data_path: Path
+    model_path: Path
