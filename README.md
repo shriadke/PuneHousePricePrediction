@@ -1,6 +1,6 @@
 # Pune House Price Prediction 📶💸💸🏚️🏗️🏠💸💸📶
 
-# Coding Exercise - Predictive modeling for price prediction for a given property in the Pune district with [Interactive app](https://pune-house-price-prediction.streamlit.app/)
+# Coding Exercise - Predictive modeling for price prediction for a given property in the Pune district with [Interactive app](https://punehousepriceprediction.streamlit.app/)
 <img src="docs/streamlit_app.png" alt="Welcome to the App" width="500"/>
 
 ## Task
@@ -9,7 +9,7 @@ This app is focused on predicting house prices given a set of features. The task
 
 ## Demo App Screenshots
 
-Here are some demo screenshots for the app and you can also try it using [this link](https://pune-house-price-prediction.streamlit.app/)<h6>(slow to load)</h6>
+Here are some demo screenshots for the app and you can also try it using [this link](https://punehousepriceprediction.streamlit.app/)<h6>(slow to load)</h6>
 
 ## Environment
 
