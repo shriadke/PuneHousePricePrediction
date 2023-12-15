@@ -3,6 +3,7 @@ from housePricePrediction.pipeline.prediction import PredictionPipeline
 from housePricePrediction.utils.data_utils import get_area_idx_dict
 
 import pandas as pd
+import numpy as np
 import string
 
 st.title('Welcome to Price Prediction App')
@@ -53,9 +54,17 @@ with st.form("search_form"):
 
     submit_status = st.form_submit_button("Get Estimated Price")
 
+    empty_flag = False
+
+    for val in data:
+        if val == "":
+            empty_flag = True
+            print(str(empty_flag)+" "+val)
+            break
+
     if submit_status:
         
-        if input_df.isnull().values.any():
+        if empty_flag:
             st.warning('All Fields must be given', icon="⚠️")
         else:
             print("finding price")
