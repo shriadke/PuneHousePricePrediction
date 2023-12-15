@@ -7,7 +7,7 @@ import string
 
 st.title('Welcome to Price Prediction App')
 st.title('🔎 _Enter_ Property Details!')
-st.markdown("""Enter as much details as possible""")
+st.markdown("""Enter as much accurate data as possible, data validation is not performed for this app!""")
 
 columns=["Location","Type","Area_sqft", "Developer", "Name", "Area_township", "hasClubHouse_yes", "hasEduFacility_yes", "hasHospital_yes", "hasMall_yes", "hasParkOrJogTrack_yes", "hasPool_yes", "hasGym_yes"]
 options = ["No", "Yes"]
