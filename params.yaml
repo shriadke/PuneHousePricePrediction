@@ -1,0 +1,6 @@
+TrainingArguments:
+  lasso_cv: 5
+  lasso_max_iter: 1000 
+  lasso_eps: 0.1
+  sgd_max_iter: 1000
+  sgd_tol: 1e-3

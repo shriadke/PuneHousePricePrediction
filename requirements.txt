@@ -16,6 +16,7 @@ openpyxl
 packaging
 pandas
 protobuf
+python-box
 requests
 scikit-learn
 seaborn
